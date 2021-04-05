@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/button_circle_line"
+    android:layout_marginBottom="50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="메모"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_weight="60"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/maplestory_bold"
+            android:textColor="@color/colorBlack"
+            />
+        <TextView
+            android:id="@+id/textDate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="날짜"
+            android:textSize="15dp"
+            android:layout_weight="60"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="35dp"
+            android:paddingTop="10dp"
+            android:gravity="end|top"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/maplestory_bold"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textMemo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="메모"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_weight="60"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/maplestory_bold"
+            />
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="삭제"
+        android:textSize="18dp"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/maplestory_bold"
+        />
+
+
+    </LinearLayout>
+</LinearLayout>

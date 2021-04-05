@@ -1,0 +1,319 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mindpass.achacha"
+4    android:versionCode="14"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+14-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:8:5-85
+14-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:8:22-82
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:9:5-81
+15-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:9:22-78
+16
+17    <!-- Include required permissions for Google Maps API to run. -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\e79a1f53af302e1c003347477dc85afe\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\e79a1f53af302e1c003347477dc85afe\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\e79a1f53af302e1c003347477dc85afe\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\e79a1f53af302e1c003347477dc85afe\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\e79a1f53af302e1c003347477dc85afe\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+23
+24    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+24-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\09d9902aa90ebe0bbb3039b00b55671c\jetified-firebase-iid-20.0.0\AndroidManifest.xml:24:5-68
+24-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\09d9902aa90ebe0bbb3039b00b55671c\jetified-firebase-iid-20.0.0\AndroidManifest.xml:24:22-65
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+25-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\09d9902aa90ebe0bbb3039b00b55671c\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
+25-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\09d9902aa90ebe0bbb3039b00b55671c\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:22-79
+26    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+26-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\45f4289793f7b6fc2952700a9d7eafd8\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:26:5-110
+26-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\45f4289793f7b6fc2952700a9d7eafd8\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:26:22-107
+27
+28    <application
+28-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:11:5-81:19
+29        android:allowBackup="false"
+29-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:12:9-36
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.1.0-rc02] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\ef05f27c425f8ca36c69014e92cced85\core-1.1.0-rc02\AndroidManifest.xml:24:18-86
+31        android:icon="@drawable/p3"
+31-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:13:9-36
+32        android:label="@string/app_name"
+32-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:14:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:15:9-54
+34        android:supportsRtl="true"
+34-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:16:9-35
+35        android:theme="@style/AppThemeNoBar"
+35-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:17:9-45
+36        android:usesCleartextTraffic="true" >
+36-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:18:9-44
+37        <receiver
+37-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:20:9-28:20
+38            android:name="com.mindpass.achacha.BootReceiver"
+38-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:21:13-61
+39            android:enabled="true"
+39-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:22:13-35
+40            android:exported="false"
+40-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:23:13-37
+41            android:label="BOOTReceiver" >
+41-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:24:13-41
+42            <intent-filter>
+42-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:25:13-27:29
+43                <action android:name="android.intent.action.BOOT_COMPLETED" />
+43-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:26:17-79
+43-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:26:25-76
+44            </intent-filter>
+45        </receiver>
+46        <receiver
+46-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:29:9-37:20
+47            android:name="com.mindpass.achacha.RestarterBroadcastReceiver"
+47-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:30:13-75
+48            android:enabled="true"
+48-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:31:13-35
+49            android:exported="true"
+49-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:32:13-36
+50            android:label="RestartServiceWhenStopped" >
+50-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:33:13-54
+51            <intent-filter>
+51-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:34:13-36:29
+52                <action android:name="com.bluexmas.common.RestartService" />
+52-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:35:17-77
+52-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:35:25-74
+53            </intent-filter>
+54        </receiver>
+55
+56        <service
+56-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:39:9-43:44
+57            android:name="com.mindpass.achacha.MyService"
+57-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:40:13-58
+58            android:enabled="true"
+58-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:41:13-35
+59            android:exported="true"
+59-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:42:13-36
+60            android:stopWithTask="false" />
+60-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:43:13-41
+61        <service
+61-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:44:9-51:19
+62            android:name="com.mindpass.achacha.FirebaseMessagingService"
+62-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:45:13-73
+63            android:enabled="true"
+63-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:46:13-35
+64            android:exported="true" >
+64-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:47:13-36
+65            <intent-filter>
+65-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:48:13-50:29
+66                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+66-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:49:17-78
+66-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:49:25-75
+67            </intent-filter>
+68        </service>
+69
+70        <activity android:name="com.mindpass.achacha.LoginCheck" >
+70-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:53:9-59:20
+70-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:53:19-65
+71            <intent-filter>
+71-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:54:13-58:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:55:17-69
+72-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:55:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:57:17-77
+74-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:57:27-74
+75            </intent-filter>
+76        </activity>
+77        <activity android:name="com.mindpass.achacha.Hongbo" />
+77-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:60:9-64
+77-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:60:19-61
+78        <activity android:name="com.mindpass.achacha.Login" />
+78-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:61:9-63
+78-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:61:19-60
+79        <activity android:name="com.mindpass.achacha.StartStore" />
+79-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:62:9-68
+79-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:62:19-65
+80        <activity android:name="com.mindpass.achacha.RegChoice" />
+80-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:63:9-67
+80-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:63:19-64
+81        <activity android:name="com.mindpass.achacha.RegisterSajang" />
+81-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:64:9-72
+81-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:64:19-69
+82        <activity android:name="com.mindpass.achacha.Register" />
+82-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:65:9-66
+82-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:65:19-63
+83        <activity android:name="com.mindpass.achacha.ChoiceMap" />
+83-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:66:9-67
+83-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:66:19-64
+84        <activity android:name="com.mindpass.achacha.Choice" />
+84-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:67:9-64
+84-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:67:19-61
+85        <activity
+85-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:68:9-70:55
+86            android:name="com.mindpass.achacha.Input"
+86-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:69:13-54
+87            android:windowSoftInputMode="adjustPan" />
+87-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:70:13-52
+88        <activity android:name="com.mindpass.achacha.Start" />
+88-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:71:9-63
+88-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:71:19-60
+89
+90        <meta-data
+90-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:73:9-75:71
+91            android:name="com.google.android.geo.API_KEY"
+91-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:74:13-58
+92            android:value="AIzaSyA5LqNMBkhvQtkmQJkecebePHAQMY-5eIE" />
+92-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:75:13-68
+93        <meta-data
+93-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:76:9-78:71
+94            android:name="com.google.firebase.messaging.default_notification_channel_id"
+94-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:77:13-89
+95            android:value="@string/default_notification_channel_id" />
+95-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:78:13-68
+96
+97        <activity android:name="com.mindpass.achacha.MainActivity" />
+97-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:80:9-70
+97-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:80:19-67
+98        <!-- Needs to be explicitly declared on P+ -->
+99        <uses-library
+99-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\e79a1f53af302e1c003347477dc85afe\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+100            android:name="org.apache.http.legacy"
+100-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\e79a1f53af302e1c003347477dc85afe\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+101            android:required="false" />
+101-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\e79a1f53af302e1c003347477dc85afe\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+102        <!--
+103             FirebaseMessagingService performs security checks at runtime,
+104             but set to not exported to explicitly avoid allowing another app to call it.
+105        -->
+106        <service
+106-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\db2f8094459a73992d93e19774fa6431\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
+107            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+107-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\db2f8094459a73992d93e19774fa6431\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+108            android:exported="false" >
+108-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\db2f8094459a73992d93e19774fa6431\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
+109            <intent-filter android:priority="-500" >
+109-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:48:13-50:29
+110                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+110-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:49:17-78
+110-->C:\Users\lmh48\AndroidStudioProjects\Achacha\app\src\main\AndroidManifest.xml:49:25-75
+111            </intent-filter>
+112        </service>
+113        <service
+113-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\09d9902aa90ebe0bbb3039b00b55671c\jetified-firebase-iid-20.0.0\AndroidManifest.xml:29:9-35:19
+114            android:name="com.google.firebase.components.ComponentDiscoveryService"
+114-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\09d9902aa90ebe0bbb3039b00b55671c\jetified-firebase-iid-20.0.0\AndroidManifest.xml:30:13-84
+115            android:directBootAware="true"
+115-->[com.google.firebase:firebase-common:19.3.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\33125d08ffbbc3617f73a81dd67ea1e8\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+116            android:exported="false" >
+116-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\09d9902aa90ebe0bbb3039b00b55671c\jetified-firebase-iid-20.0.0\AndroidManifest.xml:31:13-37
+117            <meta-data
+117-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\09d9902aa90ebe0bbb3039b00b55671c\jetified-firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+118                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+118-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\09d9902aa90ebe0bbb3039b00b55671c\jetified-firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\09d9902aa90ebe0bbb3039b00b55671c\jetified-firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+120            <meta-data
+120-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\341e7cfd91c171ae76b36d022e9c55ed\jetified-play-services-measurement-api-17.5.0\AndroidManifest.xml:30:13-32:85
+121                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+121-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\341e7cfd91c171ae76b36d022e9c55ed\jetified-play-services-measurement-api-17.5.0\AndroidManifest.xml:31:17-139
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\341e7cfd91c171ae76b36d022e9c55ed\jetified-play-services-measurement-api-17.5.0\AndroidManifest.xml:32:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\138520e0137d74fdf3e48f349cc39248\jetified-firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
+124                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+124-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\138520e0137d74fdf3e48f349cc39248\jetified-firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\138520e0137d74fdf3e48f349cc39248\jetified-firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
+126        </service>
+127
+128        <receiver
+128-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\09d9902aa90ebe0bbb3039b00b55671c\jetified-firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
+129            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+129-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\09d9902aa90ebe0bbb3039b00b55671c\jetified-firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+130            android:exported="true"
+130-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\09d9902aa90ebe0bbb3039b00b55671c\jetified-firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
+131            android:permission="com.google.android.c2dm.permission.SEND" >
+131-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\09d9902aa90ebe0bbb3039b00b55671c\jetified-firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
+132            <intent-filter>
+132-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\09d9902aa90ebe0bbb3039b00b55671c\jetified-firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
+133                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+133-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\09d9902aa90ebe0bbb3039b00b55671c\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+133-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\09d9902aa90ebe0bbb3039b00b55671c\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
+134            </intent-filter>
+135        </receiver>
+136
+137        <activity
+137-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\213a9796cea6cb57b594d8e99fa08130\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+138            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+138-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\213a9796cea6cb57b594d8e99fa08130\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+139            android:exported="false"
+139-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\213a9796cea6cb57b594d8e99fa08130\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+140            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+140-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\213a9796cea6cb57b594d8e99fa08130\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+141
+142        <provider
+142-->[com.google.firebase:firebase-common:19.3.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\33125d08ffbbc3617f73a81dd67ea1e8\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+143            android:name="com.google.firebase.provider.FirebaseInitProvider"
+143-->[com.google.firebase:firebase-common:19.3.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\33125d08ffbbc3617f73a81dd67ea1e8\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+144            android:authorities="com.mindpass.achacha.firebaseinitprovider"
+144-->[com.google.firebase:firebase-common:19.3.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\33125d08ffbbc3617f73a81dd67ea1e8\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+145            android:exported="false"
+145-->[com.google.firebase:firebase-common:19.3.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\33125d08ffbbc3617f73a81dd67ea1e8\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+146            android:initOrder="100" />
+146-->[com.google.firebase:firebase-common:19.3.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\33125d08ffbbc3617f73a81dd67ea1e8\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+147
+148        <receiver
+148-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\45f4289793f7b6fc2952700a9d7eafd8\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:29:9-33:20
+149            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+149-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\45f4289793f7b6fc2952700a9d7eafd8\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:30:13-85
+150            android:enabled="true"
+150-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\45f4289793f7b6fc2952700a9d7eafd8\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:31:13-35
+151            android:exported="false" >
+151-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\45f4289793f7b6fc2952700a9d7eafd8\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:32:13-37
+152        </receiver>
+153
+154        <service
+154-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\45f4289793f7b6fc2952700a9d7eafd8\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:35:9-38:40
+155            android:name="com.google.android.gms.measurement.AppMeasurementService"
+155-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\45f4289793f7b6fc2952700a9d7eafd8\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:36:13-84
+156            android:enabled="true"
+156-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\45f4289793f7b6fc2952700a9d7eafd8\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:37:13-35
+157            android:exported="false" />
+157-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\45f4289793f7b6fc2952700a9d7eafd8\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:38:13-37
+158        <service
+158-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\45f4289793f7b6fc2952700a9d7eafd8\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:39:9-43:72
+159            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+159-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\45f4289793f7b6fc2952700a9d7eafd8\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:40:13-87
+160            android:enabled="true"
+160-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\45f4289793f7b6fc2952700a9d7eafd8\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:41:13-35
+161            android:exported="false"
+161-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\45f4289793f7b6fc2952700a9d7eafd8\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:42:13-37
+162            android:permission="android.permission.BIND_JOB_SERVICE" />
+162-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\45f4289793f7b6fc2952700a9d7eafd8\jetified-play-services-measurement-17.5.0\AndroidManifest.xml:43:13-69
+163
+164        <meta-data
+164-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\375d651d5958cb531ebed8a1b528b07d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+165            android:name="com.google.android.gms.version"
+165-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\375d651d5958cb531ebed8a1b528b07d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+166            android:value="@integer/google_play_services_version" />
+166-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\lmh48\.gradle\caches\transforms-2\files-2.1\375d651d5958cb531ebed8a1b528b07d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+167    </application>
+168
+169</manifest>

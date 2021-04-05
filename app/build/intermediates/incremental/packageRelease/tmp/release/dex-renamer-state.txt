@@ -1,0 +1,4 @@
+#Tue Nov 17 22:57:59 KST 2020
+base.0=C\:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

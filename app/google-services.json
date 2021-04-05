@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "110316830643",
+    "firebase_url": "https://possible-stock-201112.firebaseio.com",
+    "project_id": "possible-stock-201112",
+    "storage_bucket": "possible-stock-201112.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110316830643:android:db223c9012a6fcdd32d5c6",
+        "android_client_info": {
+          "package_name": "com.mindpass.achacha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110316830643-rnf9tt9kueo7acf6httki39qdj2q6h12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEHIfI-DNfuyMdHBNdpX27FIOjoakSzQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110316830643-rnf9tt9kueo7acf6httki39qdj2q6h12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

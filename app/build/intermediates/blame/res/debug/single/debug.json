@@ -1,0 +1,190 @@
+[
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\drawable_close.png.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\drawable\\close.png"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\drawable_p1.png.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\drawable\\p1.png"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login_check.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\layout\\activity_login_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_input.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\layout\\activity_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\drawable_p3.png.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\drawable\\p3.png"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\font_maplestory_bold.ttf.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\font\\maplestory_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_circle.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\drawable\\button_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register_sajang.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\layout\\activity_register_sajang.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview_memo.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\layout\\listview_memo.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_start.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview_item.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\layout\\listview_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_circle_white.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\drawable\\button_circle_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\drawable_memo.png.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\drawable\\memo.png"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_start_store.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\layout\\activity_start_store.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_choice.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\layout\\activity_choice.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_choice_map.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\layout\\activity_choice_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shout.png.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\drawable\\shout.png"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\drawable_trashcan.png.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\drawable\\trashcan.png"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\drawable_p2.png.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\drawable\\p2.png"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_circle_line.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\drawable\\button_circle_line.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clock.png.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\drawable\\clock.png"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\drawable_placeholder.png.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\drawable\\placeholder.png"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_reg_choice.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\layout\\activity_reg_choice.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_circle_gray.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\drawable\\button_circle_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\font_maplestory_light.ttf.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\font\\maplestory_light.ttf"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\font_font.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\font\\font.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\drawable_map.png.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\drawable\\map.png"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_hongbo.xml.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\layout\\activity_hongbo.xml"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\font_bmdohyeon_ttf.ttf.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\font\\bmdohyeon_ttf.ttf"
+    },
+    {
+        "merged": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\build\\intermediates\\res\\merged\\debug\\font_bmjna_ttf.ttf.flat",
+        "source": "C:\\Users\\lmh48\\AndroidStudioProjects\\Achacha\\app\\src\\main\\res\\font\\bmjna_ttf.ttf"
+    }
+]

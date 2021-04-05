@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="90dp"
+            android:src="@drawable/p3"></ImageView>
+        <TextView
+            android:id="@+id/achacha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/maplestory_bold"
+            android:gravity="center"
+            android:text="회원가입"
+            android:textSize="50dp" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/rgidview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textSize="20dp"
+                android:text="아이디"
+                android:fontFamily="@font/maplestory_bold"/>
+            <EditText
+                android:id="@+id/idreg"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:inputType="text"
+                android:fontFamily="@font/maplestory_bold">
+            </EditText>
+
+            <TextView
+                android:id="@+id/rgpwview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textSize="20dp"
+                android:text="비밀번호"
+                android:fontFamily="@font/maplestory_bold"/>
+
+            <EditText
+                android:id="@+id/pwreg"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:inputType="textPassword"
+                android:fontFamily="@font/maplestory_bold">
+            </EditText>
+
+            <TextView
+                android:id="@+id/rgpwcheckview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textSize="20dp"
+                android:text="비밀번호 확인"
+                android:fontFamily="@font/maplestory_bold"/>
+
+            <EditText
+                android:id="@+id/pwwreg"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:inputType="textPassword"
+                android:fontFamily="@font/maplestory_bold">
+            </EditText>
+
+            <TextView
+                android:id="@+id/rgphoneview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textSize="20dp"
+                android:text="메일 주소"
+                android:fontFamily="@font/maplestory_bold"/>
+
+            <EditText
+                android:id="@+id/mailreg"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:inputType="text"
+                android:fontFamily="@font/maplestory_bold">
+            </EditText>
+            <TextView
+                android:id="@+id/ageview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textSize="20dp"
+                android:text="나이"
+                android:fontFamily="@font/maplestory_bold"/>
+
+            <EditText
+                android:id="@+id/agereg"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:inputType="number"
+                android:fontFamily="@font/maplestory_bold">
+            </EditText>
+
+            <TextView
+                android:id="@+id/sexview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textSize="20dp"
+                android:text="성별"
+                android:fontFamily="@font/maplestory_bold"/>
+
+            <RadioGroup
+                android:id="@+id/radioreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:gravity="center">
+                <RadioButton
+                    android:id="@+id/radiomale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="남자"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/maplestory_bold">
+                </RadioButton>
+                <RadioButton
+                    android:id="@+id/radiofemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="여자"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/maplestory_bold">
+                </RadioButton>
+            </RadioGroup>
+            <TextView
+                android:id="@+id/stnumview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textSize="20dp"
+                android:text="사업자 번호"
+                android:fontFamily="@font/maplestory_bold"/>
+            <EditText
+                android:id="@+id/storenumreg"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:inputType="number"
+                android:fontFamily="@font/maplestory_bold">
+            </EditText>
+            <TextView
+                android:id="@+id/stnameview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textSize="20dp"
+                android:text="사업자 명"
+                android:fontFamily="@font/maplestory_bold"/>
+            <EditText
+                android:id="@+id/storenamereg"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:inputType="text"
+                android:fontFamily="@font/maplestory_bold">
+            </EditText>
+            <TextView
+                android:id="@+id/telview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textSize="20dp"
+                android:text="연락처"
+                android:fontFamily="@font/maplestory_bold"/>
+            <EditText
+                android:id="@+id/telreg"
+                android:imeOptions="actionSend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:inputType="number"
+                android:fontFamily="@font/maplestory_bold">
+            </EditText>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.2">
+
+        <Button
+            android:id="@+id/regbtn"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="회원 가입"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_circle"
+            android:fontFamily="@font/maplestory_bold">
+        </Button>
+
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="뒤로 가기"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_circle_white"
+            android:fontFamily="@font/maplestory_bold">
+        </Button>
+    </LinearLayout>
+
+
+
+</LinearLayout>

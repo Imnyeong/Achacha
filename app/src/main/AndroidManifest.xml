@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mindpass.achacha">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/p3"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeNoBar"
+        android:usesCleartextTraffic="true">
+
+        <receiver
+            android:name="com.mindpass.achacha.BootReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:label="BOOTReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.mindpass.achacha.RestarterBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:label="RestartServiceWhenStopped">
+            <intent-filter>
+                <action android:name="com.bluexmas.common.RestartService" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.mindpass.achacha.MyService"
+            android:enabled="true"
+            android:exported="true"
+            android:stopWithTask="false" />
+        <service
+            android:name="com.mindpass.achacha.FirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.mindpass.achacha.LoginCheck">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mindpass.achacha.Hongbo" />
+        <activity android:name="com.mindpass.achacha.Login" />
+        <activity android:name="com.mindpass.achacha.StartStore" />
+        <activity android:name="com.mindpass.achacha.RegChoice" />
+        <activity android:name="com.mindpass.achacha.RegisterSajang" />
+        <activity android:name="com.mindpass.achacha.Register" />
+        <activity android:name="com.mindpass.achacha.ChoiceMap" />
+        <activity android:name="com.mindpass.achacha.Choice" />
+        <activity
+            android:name="com.mindpass.achacha.Input"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.mindpass.achacha.Start" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA5LqNMBkhvQtkmQJkecebePHAQMY-5eIE" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <activity android:name="com.mindpass.achacha.MainActivity" />
+    </application>
+
+</manifest>
